@@ -36,7 +36,6 @@
         .container h1 {
             margin-bottom: 20px;
         }
-
         .container label {
             display: inline-block;
             margin-bottom: 20px;
@@ -111,7 +110,7 @@
         button.addEventListener("click", generateListItem);
         function generateListItem() {
             let content = inputfield.value;
-            // if(content != "")
+            //if(content != "")
             if (content.length >= 1) {
 
 
@@ -120,7 +119,7 @@
                 listItem.append(content);
                 orderedList.append(listItem);
                 inputfield.value = "";
-                // console.log("I am function");
+                //console.log("I am function");
             }
         }
 
